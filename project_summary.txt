@@ -1,0 +1,35 @@
+Intro to Blockchain
+Final Project
+David Crowe
+
+Donkey & Elephany Voting dApp - Project Summary
+
+
+Concept:
+The Elephant & Donkey Voting dapp is traditional blockchain code/prototype dapp that lets users vote for their
+preferred animal – elephant or donkey – and store their vote in an immutable, cryptographically secure and
+distributed fashion. The Elephant & Donkey Voting dapp allows you to:
+
+• Vote from your browser. No driving to the polling station!
+• Enable a transparent, publically auditable election
+• Build a deterministic record of votes
+
+
+Suitability for Blockchain:
+The Elephant & Donkey Voting dApp takes advantage of a number of the benefits of blockchain based systems:
+
+• Decentralization allows for secure votes - no single entity has control over the results
+• Immutability allows for secure votes - votes cannot be changed or deleted
+• Public ledger blockchains allow for auditable vote history - anyone can download the results & verify vote counts
+
+
+Implementation:
+The Elephant & Donkey Voting dApp implementation includes:
+• A smart contract written in Solidity and developed and tested using Remix and Truffle
+• A Ganache personal blockchain for development
+• Javascript web3 for application logic with an HTML & CSS frontend. These files are stored within the ./src/ folder
+• Integration with MetaMask
+
+Also included is a "record screen" video showing implementation and workflow of the dApp.
+
+

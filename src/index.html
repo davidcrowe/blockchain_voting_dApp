@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donkey & Elephant Voting dApp</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">Donkey & Elephant Voting dApp</h1>
+          <hr/>
+        </div>
+      </div>
+      
+      <div id="showVotesRow" class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h2 class="text text-center" id="voteConfirmation"></h2>
+        </div>
+      </div>
+
+
+      <div id="votesRow" class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="panel panel-default panel-pet">
+            <div class="panel-heading">
+              <h3 class="panel-title text text-center">Donkey</h3>
+            </div>
+            <div class="panel-body">
+              <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center center" style="width: 100%;" src="images/donkey.jpg" data-holder-rendered="true">
+              <br/><br/>
+              <button class="btn btn-default btn-primary btn-block btn-vote" type="button" data-id="0">Vote Donkey</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="panel panel-default panel-pet">
+            <div class="panel-heading">
+              <h3 class="panel-title text text-center">Elephant</h3>
+            </div>
+            <div class="panel-body">
+              <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center center" style="width: 100%;" src="images/elephant.jpg" data-holder-rendered="true">
+              <br/><br/>
+              <button class="btn btn-default btn-danger btn-block btn-vote" type="button" data-id="1">Vote Elephant</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
